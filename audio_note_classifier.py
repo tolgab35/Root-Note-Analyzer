@@ -21,7 +21,7 @@ def extract_mfcc(file_path, n_mfcc=13):
     return mfcc_mean
 
 # Veri setinin bulunduğu dizini ayarla
-data_dir = "C:/Users/LENOVO/Desktop/Yazlab Proje/Audio Data"  # Ses dosyalarının bulunduğu klasör
+data_dir = "D:/Ses Verisi"  # Ses dosyalarının bulunduğu klasör
 labels = ['la', 'si', 'fa', 'sol']  # Sınıflar
 
 # Özellik vektörleri ve etiketleri tutacak listeler
